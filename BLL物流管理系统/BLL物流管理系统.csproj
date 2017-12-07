@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A579EAC-B51F-4348-AB9A-A2741D75C238}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL物流管理系统</RootNamespace>
+    <AssemblyName>BLL物流管理系统</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Login.cs" />
+    <Compile Include="FRM_Main.cs" />
+    <Compile Include="FRM_QiShi.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="出车登记\FRM_ChuCheDengJi.cs" />
+    <Compile Include="出车登记\FRM_DaoDaDengJi.cs" />
+    <Compile Include="司机管理\BLL_FRM_SiJiGuanLi.cs" />
+    <Compile Include="司机管理\BLL_FRM_SiJiGuanLi_Insert.cs" />
+    <Compile Include="司机管理\BLL_FRM_SiJiGuanLi_Update.cs" />
+    <Compile Include="司机管理\BLL_FRM_XuanZheJiGou.cs" />
+    <Compile Include="报表统计\FRM_BaoBiaoDingDanLiuLan.cs" />
+    <Compile Include="报表统计\FRM_DingDanBaoBiao.cs" />
+    <Compile Include="报表统计\FRM_ErWeiMaDanHao.cs" />
+    <Compile Include="报表统计\FRM_ShenHeHuoPinTongJi.cs" />
+    <Compile Include="报表统计\FRM_YeWuYuanYeJi.cs" />
+    <Compile Include="报表统计\FRM_YuanGongGongZuoZheng.cs" />
+    <Compile Include="用户权限管理\BLL_authCheck.cs" />
+    <Compile Include="用户权限管理\BLL_QuanXianZu.cs" />
+    <Compile Include="用户权限管理\BLL_QuanXianZu_Insert.cs" />
+    <Compile Include="用户权限管理\BLL_QuanXianZu_Update.cs" />
+    <Compile Include="用户权限管理\BLL_XuanZheQuanXianZu.cs" />
+    <Compile Include="用户权限管理\BLL_YongHuQuanXian.cs" />
+    <Compile Include="用户权限管理\BLL_YongHuQuanXian_Insert.cs" />
+    <Compile Include="用户权限管理\BLL_YongHuQuanXian_Update.cs" />
+    <Compile Include="线路管理\FRM_XianLuGuanLi.cs" />
+    <Compile Include="线路管理\FRM_XianLuGuanLi_Insert.cs" />
+    <Compile Include="线路管理\FRM_XianLuGuanLi_Update.cs" />
+    <Compile Include="线路管理\FRM_XianLuGuanLi_WangDianGuanLi.cs" />
+    <Compile Include="线路管理\FRM_XianLuGuanLi_WangDianGuanLi_Insert.cs" />
+    <Compile Include="线路管理\FRM_XianLuGuanLi_WangDianGuanLi_Update.cs" />
+    <Compile Include="订单管理\DingDanGuanLi.cs" />
+    <Compile Include="订单管理\DingDanGuanLi_Insert.cs" />
+    <Compile Include="订单管理\DingDanGuanLi_Update.cs" />
+    <Compile Include="车辆状态\FRM_CheLiangZhuangTai.cs" />
+    <Compile Include="车辆状态\FRM_CheLiangZhuangTai_Insert.cs" />
+    <Compile Include="车辆状态\FRM_CheLiangZhuangTai_Update.cs" />
+    <Compile Include="运输单管理\FRM_HuoYunDanGuanLi.cs" />
+    <Compile Include="运输单管理\FRM_HuoYunDanGuanLi_Insert.cs" />
+    <Compile Include="运输单管理\FRM_HuoYunDanGuanLi_Update.cs" />
+    <Compile Include="配载发货\FRM_PeiZaiFaHuoFenBao.cs" />
+    <Compile Include="配载发货\FRM_PeiZaiFaHuoFenBao_Update.cs" />
+    <Compile Include="配载发货\PeiZaiFaHuoPeiZai.cs" />
+    <Compile Include="配载发货\PeiZaiFaHuoPeiZai_Insert.cs" />
+    <Compile Include="配载发货\PeiZaiFaHuoPeiZai_Update.cs" />
+    <Compile Include="配载发货\PeiZaiFaHuo_ShiShiPeiZai.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DALPublic.csproj">
+      <Project>{CF150DAB-80C7-4354-A494-9CA78968ACC6}</Project>
+      <Name>DALPublic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

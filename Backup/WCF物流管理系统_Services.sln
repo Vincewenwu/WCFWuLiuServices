@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL物流管理系统", "BLL物流管理系统\BLL物流管理系统.csproj", "{5A579EAC-B51F-4348-AB9A-A2741D75C238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALPublic", "DAL\DALPublic.csproj", "{CF150DAB-80C7-4354-A494-9CA78968ACC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF物流管理系统_Services", "WCF物流管理系统_Services\WCF物流管理系统_Services.csproj", "{B0B0A480-5CF2-434C-9C57-079C41124927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A579EAC-B51F-4348-AB9A-A2741D75C238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A579EAC-B51F-4348-AB9A-A2741D75C238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A579EAC-B51F-4348-AB9A-A2741D75C238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A579EAC-B51F-4348-AB9A-A2741D75C238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF150DAB-80C7-4354-A494-9CA78968ACC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF150DAB-80C7-4354-A494-9CA78968ACC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF150DAB-80C7-4354-A494-9CA78968ACC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF150DAB-80C7-4354-A494-9CA78968ACC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B0A480-5CF2-434C-9C57-079C41124927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B0A480-5CF2-434C-9C57-079C41124927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B0A480-5CF2-434C-9C57-079C41124927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B0A480-5CF2-434C-9C57-079C41124927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
